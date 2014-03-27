@@ -1,0 +1,113 @@
+* {
+    padding:0px;
+    margin:0px;
+    border:none;
+    outline:none;
+}
+html {
+    width:100%;
+    font-family:'Signika Negative', serif;
+    line-height: 160%;
+}
+
+body {
+    width:100%;
+    position:relative;
+    background: url(../img/moein.jpg) no-repeat;
+    background-size:cover;
+    -webkit-background-size:100% auto;
+    -moz-background-size:100% auto;
+    -o-background-size:100% auto;
+}
+
+a{
+    text-decoration:none;
+    color:rgb(24, 132, 248);;
+}
+
+#part{
+    color: whitesmoke;
+    position:relative;
+    float:left;
+    width:700px;
+    height:550px;
+    left:5%;
+    margin-top:50px;
+    text-shadow:1px 1px 0 #000;
+    direction: rtl;
+    -webkit-transition: all 1s cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+    -moz-transition: all 1s cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+    -ms-transition: all 1s cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+    -o-transition: all 1s cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+    transition: all 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+#part #bg {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:#000;
+    opacity: 0.6;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 10px solid transparent;
+}
+#data{
+    position:relative;
+    top:1%;
+    right:65px;
+    width:600px;
+    height:85%;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 10px;
+}
+#social{
+    position:relative;
+    top:1%;
+    right:65px;
+    width:600px;
+    height:90px;
+    overflow: hidden;
+    text-align: center;
+    padding-left: 10px;    
+}
+#data p{
+    font-size: 20px;
+    text-align:left;
+    direction: ltr;
+    line-height: 150%;
+}
+#social p{
+    font-size: 38px;
+    text-align:center;
+    direction: ltr;
+    line-height: 50px;
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.3); 
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(255,255,255,0.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.2); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255,255,255.4); 
+}
+
+::selection{
+    background-color:rgba(255,255,255,0.2);
+    text-shadow:none;
+}
